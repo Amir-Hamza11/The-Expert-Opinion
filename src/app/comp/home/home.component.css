@@ -1,0 +1,25 @@
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    color: #1c3d5a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px; 
+    line-height: 25px; 
+    color: #1c3d5a;
+    text-align: center;
+}
+
+
+.heroImg img {
+    max-width: 500px;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}

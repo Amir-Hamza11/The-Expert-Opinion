@@ -27,3 +27,7 @@ ul li a:hover {
 
 }
 
+.a_btn {
+    border: none;
+    background: transparent;
+}

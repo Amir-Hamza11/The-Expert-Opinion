@@ -1,15 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-declare var AOS: any; // Declare AOS variable
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent implements OnInit{
+export class ContactComponent implements OnInit {
 
   ngOnInit() {
-    AOS.init();
+
   }
 
   downloadPdf(): void {

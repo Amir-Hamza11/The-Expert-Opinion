@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-declare var AOS: any; // Declare AOS variable
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -10,7 +8,6 @@ declare var AOS: any; // Declare AOS variable
 export class HomeComponent implements OnInit {
 
   ngOnInit() {
-    AOS.init();
   }
 
   // Method to scroll to the contact section

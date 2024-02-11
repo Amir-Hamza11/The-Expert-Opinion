@@ -15,14 +15,14 @@
 
 </head>
 
-<body class="mat-typography" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+<body class="mat-typography">
   <app-root></app-root>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     // Initialize AOS after the CSS is loaded
-    document.addEventListener('DOMContentLoaded', function () {
-      AOS.init();
-    });
+    AOS.init()
+    document.querySelectorAll('img').forEach((img)=> img.addEventListner('load',()=> AOS.refresh))
+    
   </script>
 </body>
 
